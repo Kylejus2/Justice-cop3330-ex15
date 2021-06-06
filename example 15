@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main 
+{
+    public static void main(String args[])
+    {
+        String username, password;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter username:");//username:user
+        username = s.nextLine();
+        System.out.print("Enter password:");//password:abc$123
+        password = s.nextLine();
+        if(username.equals("user") && password.equals("abc$123"))
+        {
+            System.out.println("Welcome!");
+        }
+        else
+        {
+            System.out.println("abc$123");
+        }
+    }
+}
